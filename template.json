@@ -43,7 +43,7 @@
         },
         "netFrameworkVersion": {
             "type": "string"
-        }
+        },
         "metadata": {
     "comments": "This template was developed for demonstration purposes.",
     "author": "Example Name"
