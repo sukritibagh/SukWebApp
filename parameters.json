@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "9d313565-94c5-43c6-a91e-728396d51227"
+        },
+        "name": {
+            "value": "SukWebApp"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "ASP-SukritiAutomationPOC-9002"
+        },
+        "serverFarmResourceGroup": {
+            "value": "SukritiAutomationPOC"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "netFrameworkVersion": {
+            "value": "v4.0"
+        }
+    }
+}
